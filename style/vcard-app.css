@@ -1,0 +1,42 @@
+.vcard-app {
+  padding: 1em;
+}
+
+.vcard-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vcard-view .vcard-group:first-child {
+  width: 100%;
+}
+
+.vcard-view .vcard-group:not(:first-child) {
+  flex: 1;
+  padding: 5px;
+}
+
+.vcard-display.qrcode {
+  padding: 2em;
+}
+
+#vcard\.main\.info > .vcard-cell {
+  margin: 5px 0em;
+}
+
+.vcard-input .label {
+  font-size: smaller;
+  opacity: 0.8;
+  /* font-weight: bold; */
+}
+.vcard-input input {
+  font-size: larger;
+}
+.vcard-input ::placeholder {
+  opacity: 0.5;
+}
+.vcard-input .error {
+  font-size: 10px;
+  color: tomato;
+}

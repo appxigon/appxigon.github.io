@@ -1,0 +1,147 @@
+.wm-app {
+  margin: 0;
+}
+
+.wm-display h2 {
+  margin: 0;
+}
+
+.wm-view {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.wm-view#wm\.map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wm-view#wm\.regional {
+  /* skybule */
+  /* background-color: #87ceeb; */
+  /* background-color: white; */
+  /* opacity: 0.8; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.axg-group#wm\.home\.controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10;
+}
+
+#wm\.home\.controls > .axg-cell {
+  background-color: white;
+  margin: 1;
+}
+
+#wm\.home\.controls button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.axg-group#wm\.home\.navs {
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#wm\.home\.navs .axg-cell{
+  flex: auto;
+}
+
+.axg-cell#wm\.home\.navs\.date .axg-display {
+  margin: 10;
+  /* padding: 10; */
+  color: white;
+}
+
+.axg-cell#wm\.home\.navs\.message .axg-display {
+  /* border-radius: 5px; */
+  margin: 10;
+  /* padding: 10; */
+  color: white;
+  text-align: right;
+}
+
+.axg-group#wm\.regional\.navs {
+  width: 100vw;
+  display: flex;
+  margin: 10;
+  padding: 10;
+  color: white;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #000;
+}
+#wm\.regional\.navs .axg-cell{
+  flex: auto;
+}
+#wm\.regional\.navs\.title {
+  text-align: center;
+}
+#wm\.regional\.navs\.home {
+  text-align: right;
+  padding-right: 3em;
+}
+
+.axg-group#wm\.regional\.dashboard {
+  margin: 10;
+  padding: 10;
+  color: white;
+}
+
+#wm\.regional\.dashboard h4 {
+  border-bottom: 1px solid #bbb;
+}
+
+.axg-group#wm\.article\.navs {
+  width: 100vw;
+  display: flex;
+  margin: 10;
+  padding: 10;
+  color: white;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #000;
+}
+#wm\.article\.navs .axg-cell{
+  flex: auto;
+}
+#wm\.article\.navs\.title {
+  text-align: center;
+}
+#wm\.article\.navs\.home {
+  text-align: right;
+  padding-right: 3em;
+}
+
+.axg-group#wm\.article\.content {
+  height: 100vh;
+  overflow-y: scroll;
+  color: navy;
+  /* margin-right: 2em; */
+  background-color: white;
+  /* border-radius: 1em; */
+  width: 100vw;
+  opacity: 0.7;
+}
+
+#wm\.article\.content h4 {
+  border-bottom: 1px solid #bbb;
+}
+
+#wm\.article\.content\.detail {
+  padding: 10;
+  /* opacity: 0.8; */
+  font-size: smaller;
+}
+#wm\.article\.content\.detail img {
+  width: 95vw;
+}

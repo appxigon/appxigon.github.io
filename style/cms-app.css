@@ -1,0 +1,59 @@
+.cms-group > .title {
+  background-color: gold;
+  padding: .2em;
+}
+
+.cms-cell .description {
+  color: gray;
+}
+
+.cms-input {
+  display: flex;
+  justify-content: flex-end;
+  padding: .2em;
+}
+.cms-input > .label {
+  flex: 1;
+}
+.cms-input > .control {
+  flex: 3;
+}
+@media screen and (min-width: 768px) {
+  .cms-input > .control {
+    flex: 4;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cms-input > .control {
+    flex: 5;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cms-input > .control {
+    flex: 6;
+  }
+}
+
+.cms-select {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .2em;
+}
+.cms-select > .label {
+  flex: 1;
+}
+.cms-select > .description {
+  flex: 0 1 100%;
+  font-size: smaller;
+  padding: .2em;
+}
+.cms-select > .remark {
+  color: red;
+  font-size: smaller;
+}
+.cms-select > .control {
+  flex: 100%;
+}
+.cms-select > .control > *:not(:last-child){
+  margin-right: 1em;
+}
