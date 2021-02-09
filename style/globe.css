@@ -1,23 +1,23 @@
-.wm-app {
+.globe-app {
   margin: 0;
 }
 
-.wm-display h2 {
+.globe-display h2 {
   margin: 0;
 }
 
-.wm-view {
+.globe-view {
   position: fixed;
   top: 0px;
   left: 0px;
 }
 
-.wm-view#wm\.map {
+.globe-view#globe\.map {
   width: 100vw;
   height: 100vh;
 }
 
-.wm-view#wm\.regional {
+.globe-view#globe\.regional {
   /* skybule */
   /* background-color: #87ceeb; */
   /* background-color: white; */
@@ -26,26 +26,26 @@
   height: 100vh;
 }
 
-.axg-group#wm\.home\.controls {
+.axg-group#globe\.home\.controls {
   position: fixed;
   bottom: 0;
   left: 0;
   padding: 10;
 }
 
-#wm\.home\.controls > .axg-cell {
+#globe\.home\.controls > .axg-cell {
   background-color: white;
   margin: 1;
 }
 
-#wm\.home\.controls button {
+#globe\.home\.controls button {
   border: none;
   outline: none;
   cursor: pointer;
   background-color: white;
 }
 
-.axg-group#wm\.home\.navs {
+.axg-group#globe\.home\.navs {
   width: 100vw;
   display: flex;
   position: fixed;
@@ -54,17 +54,17 @@
   text-shadow: 1px 1px 2px #000;
 }
 
-#wm\.home\.navs .axg-cell{
+#globe\.home\.navs .axg-cell{
   flex: auto;
 }
 
-.axg-cell#wm\.home\.navs\.date .axg-display {
+.axg-cell#globe\.home\.navs\.date .axg-display {
   margin: 10;
   /* padding: 10; */
   color: white;
 }
 
-.axg-cell#wm\.home\.navs\.message .axg-display {
+.axg-cell#globe\.home\.navs\.message .axg-display {
   /* border-radius: 5px; */
   margin: 10;
   /* padding: 10; */
@@ -72,7 +72,7 @@
   text-align: right;
 }
 
-.axg-group#wm\.regional\.navs {
+.axg-group#globe\.regional\.navs {
   width: 100vw;
   display: flex;
   margin: 10;
@@ -81,28 +81,28 @@
   cursor: pointer;
   text-shadow: 1px 1px 2px #000;
 }
-#wm\.regional\.navs .axg-cell{
+#globe\.regional\.navs .axg-cell{
   flex: auto;
 }
-#wm\.regional\.navs\.title {
+#globe\.regional\.navs\.title {
   text-align: center;
 }
-#wm\.regional\.navs\.home {
+#globe\.regional\.navs\.home {
   text-align: right;
   padding-right: 3em;
 }
 
-.axg-group#wm\.regional\.dashboard {
+.axg-group#globe\.regional\.dashboard {
   margin: 10;
   padding: 10;
   color: white;
 }
 
-#wm\.regional\.dashboard h4 {
+#globe\.regional\.dashboard h4 {
   border-bottom: 1px solid #bbb;
 }
 
-.axg-group#wm\.article\.navs {
+.axg-group#globe\.article\.navs {
   width: 100vw;
   display: flex;
   margin: 10;
@@ -111,18 +111,18 @@
   cursor: pointer;
   text-shadow: 1px 1px 2px #000;
 }
-#wm\.article\.navs .axg-cell{
+#globe\.article\.navs .axg-cell{
   flex: auto;
 }
-#wm\.article\.navs\.title {
+#globe\.article\.navs\.title {
   text-align: center;
 }
-#wm\.article\.navs\.home {
+#globe\.article\.navs\.home {
   text-align: right;
   padding-right: 3em;
 }
 
-.axg-group#wm\.article\.content {
+.axg-group#globe\.article\.content {
   height: 100vh;
   overflow-y: scroll;
   color: navy;
@@ -133,15 +133,15 @@
   opacity: 0.7;
 }
 
-#wm\.article\.content h4 {
+#globe\.article\.content h4 {
   border-bottom: 1px solid #bbb;
 }
 
-#wm\.article\.content\.detail {
+#globe\.article\.content\.detail {
   padding: 10;
   /* opacity: 0.8; */
   font-size: smaller;
 }
-#wm\.article\.content\.detail img {
+#globe\.article\.content\.detail img {
   width: 95vw;
 }

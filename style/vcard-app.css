@@ -20,6 +20,9 @@
 .vcard-display.qrcode {
   padding: 2em;
 }
+#vcard\.main\.qrcode\.options {
+  padding-left: 2em;
+}
 
 #vcard\.main\.info > .vcard-cell {
   margin: 5px 0em;
